@@ -1,7 +1,7 @@
 document.getElementById('fetchButton').addEventListener('click', async () => {
 
     try {
-        const response = await fetch('http://localhost:3001/pokemon');
+        const response = await fetch('http://localhost:3000/pokemon');
         if (!response.ok) {
             console.log('Something went wrong');
             return;

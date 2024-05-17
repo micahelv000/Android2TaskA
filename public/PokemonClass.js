@@ -2,9 +2,9 @@ class PokemonClass {
     #name
     #photo
 
-    constructor(name, flag) {
+    constructor(name, photo) {
         this.#name = name;
-        this.#photo = flag;
+        this.#photo = photo;
     }
 
     get name() {
